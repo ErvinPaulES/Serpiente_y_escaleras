@@ -3,7 +3,7 @@ class Dado{
 
     }
     Lanzar = () =>{
-        let numeroRandom = Math.ceil((Math.random()*45)+5);
+        let numeroRandom = Math.ceil((Math.random()*6));
         return numeroRandom
     }
 }
